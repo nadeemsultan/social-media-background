@@ -1,0 +1,63 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+::selection{
+	background: rgba(255,0,0,.5);
+	color: white;
+}
+
+#container{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	min-width: 1024px;
+	min-height: 768px;
+	background: #888888 center center;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+#wrapper{
+	width: 1024px;
+	position: relative;
+	margin: auto;
+}
+
+a{
+	text-decoration: none;
+	text-transform: capitalize;
+	font-family: 'Myriad Pro';
+	font-size: 50px;
+	color: white;
+	margin: 10px;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+a:hover{
+	color: black;
+}
+
+
+.facebook{background: url(images/facebook.png) center center no-repeat, #3B5998 !important;}
+.twitter{background: url(images/twitter.png) center center no-repeat, #9AE4E8 !important;}
+.youtube{background: url(images/youtube.png) center center no-repeat, #bb0000 !important;}
+.dribbble{background: url(images/dribbble.png) center center no-repeat, #ea4c89 !important;}
+.google{background: url(images/googleplus.png) center center no-repeat, #dd4b39 !important;}
+.tumblr{background: url(images/tumblr.png) center center no-repeat, #32506d !important;}
+.github{background: url(images/github.png) center center no-repeat, #4183c4 !important;}
+.vimeo{background: url(images/vimeo.png) center center no-repeat, #aad450 !important;}
+.flickr{background: url(images/flickr.png) center center no-repeat, #ff0084 !important;}
+.instagram{background: url(images/instagram.png) center center no-repeat, #517fa4 !important;}
+.linkedin{background: url(images/linkedin.png) center center no-repeat, #007bb6 !important;}
+.pinterest{background: url(images/pinterest.png) center center no-repeat, #cb2027 !important;}
+.behance{background: url(images/behance.png) center center no-repeat, #053eff !important;}
+.forrst{background: url(images/forrst.png) center center no-repeat, #5b9a68 !important;}
+.skype{background: url(images/skype.png) center center no-repeat, #00aff0 !important;}
